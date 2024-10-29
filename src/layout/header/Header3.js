@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Menu from "../Menu";
+import Image from "next/image";
+
 const Header3 = () => {
   return (
     <header className="header-area header-three">
@@ -12,7 +14,12 @@ const Header3 = () => {
               <div className="site-brading">
                 <Link legacyBehavior href="/index-3">
                   <a className="brand-logo">
-                    <img src="assets/images/logo/logo-black.png" alt="Logo" />
+                    <Image
+                      src="/assets/images/logo/addis_t_logo.png"
+                      alt="Logo"
+                      width={50}
+                      height={50}
+                    />
                   </a>
                 </Link>
               </div>
@@ -81,7 +88,12 @@ const Header3 = () => {
             <div className="site-brading d-block d-xl-none">
               <Link legacyBehavior href="/index-3">
                 <a className="brand-logo">
-                  <img src="assets/images/logo/logo-white.png" alt="Logo" />
+                  <Image
+                    src="/assets/images/logo/addis_t_logo.png"
+                    alt="Logo"
+                    width={50}
+                    height={50}
+                  />
                 </a>
               </Link>
             </div>
@@ -91,9 +103,11 @@ const Header3 = () => {
               <div className="mobile-logo mb-30 d-block d-xl-none">
                 <Link legacyBehavior href="/">
                   <a className="brand-logo">
-                    <img
-                      src="assets/images/logo/logo-black.png"
-                      alt="Site Logo"
+                    <Image
+                      src="/assets/images/logo/addis_t_logo.png"
+                      alt="Logo"
+                      width={50}
+                      height={50}
                     />
                   </a>
                 </Link>
@@ -129,12 +143,12 @@ const Header3 = () => {
             </div>
             {/*====== Nav Right Item ======*/}
             <div className="nav-right-item">
-              <div className="lang-dropdown">
+              {/* <div className="lang-dropdown">
                 <select className="wide">
                   <option value="English">English</option>
                   <option value="French">French</option>
                 </select>
-              </div>
+              </div> */}
               <div className="menu-button d-xl-block d-none">
                 <Link legacyBehavior href="/contact">
                   <a className="main-btn primary-btn">

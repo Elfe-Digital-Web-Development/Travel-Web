@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Menu from "../Menu";
+import Image from "next/image";
 const DefaultHeader = () => {
   return (
     <header className="header-area header-three">
@@ -12,7 +13,12 @@ const DefaultHeader = () => {
               <div className="site-brading">
                 <Link legacyBehavior href="/index-3">
                   <a className="brand-logo">
-                    <img src="assets/images/logo/logo-black.png" alt="Logo" />
+                    <Image
+                      src="/assets/images/logo/addis_t_logo.png"
+                      alt="Logo"
+                      width={50}
+                      height={50}
+                    />
                   </a>
                 </Link>
               </div>
@@ -81,7 +87,7 @@ const DefaultHeader = () => {
             <div className="site-brading d-block d-xl-none">
               <Link legacyBehavior href="/index-3">
                 <a className="brand-logo">
-                  <img src="assets/images/logo/logo-black.png" alt="Logo" />
+                  <img src="assets/images/logo/addis_logo.jpg.png" alt="Logo" />
                 </a>
               </Link>
             </div>
@@ -91,9 +97,11 @@ const DefaultHeader = () => {
               <div className="mobile-logo mb-30 d-block d-xl-none">
                 <Link legacyBehavior href="/">
                   <a className="brand-logo">
-                    <img
-                      src="assets/images/logo/logo-black.png"
-                      alt="Site Logo"
+                    <Image
+                      src="/assets/images/logo/addis_t_logo.png"
+                      alt="Logo"
+                      width={50}
+                      height={50}
                     />
                   </a>
                 </Link>
@@ -129,12 +137,6 @@ const DefaultHeader = () => {
             </div>
             {/*====== Nav Right Item ======*/}
             <div className="nav-right-item">
-              <div className="lang-dropdown">
-                <select className="wide">
-                  <option value="English">English</option>
-                  <option value="French">French</option>
-                </select>
-              </div>
               <div className="menu-button d-xl-block d-none">
                 <Link legacyBehavior href="/contact">
                   <a className="main-btn primary-btn">
