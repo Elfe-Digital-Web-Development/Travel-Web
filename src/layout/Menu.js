@@ -36,7 +36,7 @@ const DeskTopMenu = () => {
               </li>
             </ul> */}
           </li>
-          <li className="menu-item has-children">
+          {/* <li className="menu-item has-children">
             <a href="#">
               Destination
               <span className="dd-trigger">
@@ -51,16 +51,11 @@ const DeskTopMenu = () => {
                 <Link href="destination-details">Destination Details</Link>
               </li>
             </ul>
-          </li>
+          </li> */}
 
           <li className="menu-item has-children">
-            <a href="#">
-              Pages
-              <span className="dd-trigger">
-                <i className="far fa-angle-down" />
-              </span>
-            </a>
-            <ul className="sub-menu">
+            <Link href="about">About Us</Link>
+            {/* <ul className="sub-menu">
               <li>
                 <Link href="about">About Us</Link>
               </li>
@@ -79,7 +74,7 @@ const DeskTopMenu = () => {
               <li>
                 <Link href="contact">Contact</Link>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li className="menu-item search-item">
             <div

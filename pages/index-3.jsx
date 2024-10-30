@@ -141,7 +141,6 @@ const Index3 = () => {
                   massa lacus Ultrices eget leo cras odio blandit rhoncus eues
                   feugiat
                 </p>
-                <img src="assets/images/about/avater.png" alt="Avater" />
               </div>
             </div>
           </div>

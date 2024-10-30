@@ -46,7 +46,9 @@ export default class Home3Slider extends Component {
                   <div className="col-xl-7">
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white">
-                      <span className="sub-title">Welcome to GoWilds</span>
+                      <span className="sub-title">
+                        Welcome to Addisalem Travel
+                      </span>
                       <h1 data-animation="fadeInDown" data-delay=".4s">
                         Tour Travel &amp; Adventure
                       </h1>
