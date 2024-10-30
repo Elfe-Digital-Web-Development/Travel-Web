@@ -50,10 +50,13 @@ const Index3 = () => {
                         <i className="flaticon-camping" />
                       </div>
                       <div className="text">
-                        <h3 className="title">Tent Camping</h3>
+                        <h3 className="title">Tour Services</h3>
                         <p>
-                          Sit amet consectetur integ tincidunt scelerie nodermen
-                          malesuada sceleris massa
+                          Our tour services cover a wide range of experiences,
+                          from historical explorations to cultural immersions.
+                          We provide expertly curated tours that showcase
+                          Ethiopia's unique landscapes and heritage, ensuring an
+                          unforgettable journey for all travelers.
                         </p>
                       </div>
                     </div>
@@ -65,10 +68,12 @@ const Index3 = () => {
                         <i className="flaticon-biking-mountain" />
                       </div>
                       <div className="text">
-                        <h3 className="title">Mountain Biking</h3>
+                        <h3 className="title">Ticketing Services</h3>
                         <p>
-                          Sit amet consectetur integ tincidunt scelerie nodermen
-                          malesuada sceleris massa
+                          Our seamless ticketing solutions make travel planning
+                          effortless. We offer ticketing for domestic and
+                          international flights, ensuring convenience and timely
+                          service for both business and leisure travelers.
                         </p>
                       </div>
                     </div>
@@ -80,10 +85,13 @@ const Index3 = () => {
                         <i className="flaticon-fishing-2" />
                       </div>
                       <div className="text">
-                        <h3 className="title">Fishing &amp; Boat</h3>
+                        <h3 className="title">Event Organizing</h3>
                         <p>
-                          Sit amet consectetur integ tincidunt scelerie nodermen
-                          malesuada sceleris massa
+                          We deliver professional event organizing services,
+                          handling everything from corporate functions to social
+                          events. With meticulous planning and attention to
+                          detail, we create memorable experiences that exceed
+                          client expectations.
                         </p>
                       </div>
                     </div>
@@ -95,10 +103,13 @@ const Index3 = () => {
                         <i className="flaticon-caravan" />
                       </div>
                       <div className="text">
-                        <h3 className="title">RV Caravan Tent</h3>
+                        <h3 className="title">Car Rental Services</h3>
                         <p>
-                          Sit amet consectetur integ tincidunt scelerie nodermen
-                          malesuada sceleris massa
+                          We provide reliable car rental services tailored for
+                          various needs, including office use, meetings,
+                          conferences, historical tours, ceremonies, camping,
+                          and field trips. Our modern fleet ensures comfort and
+                          safety, offering the right vehicle for every occasion.
                         </p>
                       </div>
                     </div>
@@ -113,7 +124,9 @@ const Index3 = () => {
       {/*====== Start About Section ======*/}
       <section
         className="about-section bg_cover pt-165 pb-210"
-        style={{ backgroundImage: "url(assets/images/bg/about-bg-1.jpg)" }}
+        style={{
+          backgroundImage: "url(assets/images/bg/erta-ale-volcano-is-a.jpg)",
+        }}
       >
         <div className="container">
           <div className="row align-items-xl-center">
@@ -121,7 +134,7 @@ const Index3 = () => {
               {/*=== About Image Box ===*/}
               <div className="about-image-box mb-50">
                 <img
-                  src="assets/images/about/about-2.jpg"
+                  src="assets/images/about/Korkor-Lodg-2.jpg"
                   className="rounded-2"
                   alt="About Image"
                 />

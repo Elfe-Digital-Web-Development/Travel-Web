@@ -4683,7 +4683,7 @@ button {
   text-transform: uppercase;
 }
 .blog-post .post-meta span:hover a {
-  color: #da6545;
+  color:  #da6545;
 }
 @media (max-width: 767px) {
   .blog-post .post-meta span {
@@ -5825,7 +5825,7 @@ ul.slick-dots li button::before {
   opacity: 1 !important;
 }
 ul.slick-dots li.slick-active button {
-  border-color: #da6545;
+  border-color:  #da6545;
 }
 
 /* Hero Slider One */

@@ -23,7 +23,12 @@ const DeskTopMenu = () => {
       <nav className="main-menu d-none d-xl-block">
         <ul>
           <li className="menu-item has-children">
+
             <Link href="index-3">Home</Link>
+
+            
+          
+
           </li>
           <li className="menu-item has-children">
             <Link href="tour">Tours</Link>
@@ -109,18 +114,18 @@ const MobileMenu = () => {
             </span>
           </a>
           <ul className="sub-menu" style={activeLi("home")}>
-            <li>
+            {/* <li>
               <Link href="/">Home 01</Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link href="index-2">Home 02</Link>
-            </li>
+            </li> */}
             <li>
               <Link href="index-3">Home 03</Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="index-4">Home 04</Link>
-            </li>
+            </li> */}
           </ul>
         </li>
         <li className="menu-item has-children">
