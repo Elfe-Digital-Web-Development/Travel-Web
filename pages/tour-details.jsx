@@ -16,7 +16,7 @@ const TourDetails = () => {
             <div className="place-slider-item">
               <div className="place-img">
                 <img
-                  src="assets/images/place/single-place-1.jpg"
+                  src="assets/images/place/single-place-4.jpg"
                   alt="Place Image"
                 />
               </div>
@@ -37,14 +37,6 @@ const TourDetails = () => {
                 />
               </div>
             </div>
-            <div className="place-slider-item">
-              <div className="place-img">
-                <img
-                  src="assets/images/place/single-place-2.jpg"
-                  alt="Place Image"
-                />
-              </div>
-            </div>
           </Slider>
         </div>
         <div className="container">
@@ -55,10 +47,10 @@ const TourDetails = () => {
               <div className="row">
                 <div className="col-xl-6">
                   <div className="tour-title mb-20">
-                    <h3 className="title">Boat Traveling on Made River</h3>
+                    <h3 className="title">Lalibela Rock-Hewn Churches</h3>
                     <p>
                       <i className="far fa-map-marker-alt" />
-                      Tambon Khlong Sok, Thailand
+                      Ethiopia, Amhara
                     </p>
                   </div>
                 </div>
@@ -404,7 +396,7 @@ const TourDetails = () => {
                 </Tab.Container>
                 {/*=== Map Box ===*/}
                 <div className="map-box mb-60 wow fadeInUp">
-                  <iframe src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed" />
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15608.754767870934!2d39.04144633952827!3d12.030527054419178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x16413eee814f2d03%3A0xf27414e782ae4b62!2sLalibela!5e0!3m2!1sen!2set!4v1730277418890!5m2!1sen!2set"></iframe>
                 </div>
                 {/*=== Calendar Box ===*/}
                 <div className="calendar-wrapper wow fadeInUp">

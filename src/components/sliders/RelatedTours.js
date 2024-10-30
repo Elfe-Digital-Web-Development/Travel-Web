@@ -69,12 +69,12 @@ export default class RelatedTours extends Component {
                 </ul>
                 <h4 className="title">
                   <Link legacyBehavior href="/tour-details">
-                    <a>Man and Woman Walks on Dock</a>
+                    <a>Abijatta-Shalla National Park</a>
                   </Link>
                 </h4>
                 <p className="location">
                   <i className="fas fa-map-marker-alt" />
-                  North Province, Maldives
+                  Oromia, Ethiopia
                 </p>
                 <p className="price">
                   <i className="fas fa-usd-circle" />
@@ -130,12 +130,12 @@ export default class RelatedTours extends Component {
                 </ul>
                 <h4 className="title">
                   <Link legacyBehavior href="/tour-details">
-                    <a>Trees Under White Clouds during Daytime</a>
+                    <a>Lalibela Church</a>
                   </Link>
                 </h4>
                 <p className="location">
                   <i className="fas fa-map-marker-alt" />
-                  North Province, Maldives
+                  Amhara, Ethiopia
                 </p>
                 <p className="price">
                   <i className="fas fa-usd-circle" />
@@ -191,12 +191,12 @@ export default class RelatedTours extends Component {
                 </ul>
                 <h4 className="title">
                   <Link legacyBehavior href="/tour-details">
-                    <a>Body of Water Near Mountain</a>
+                    <a>Lucy's Fossil</a>
                   </Link>
                 </h4>
                 <p className="location">
                   <i className="fas fa-map-marker-alt" />
-                  North Province, Maldives
+                  Addis Ababa, Ethiopia
                 </p>
                 <p className="price">
                   <i className="fas fa-usd-circle" />
