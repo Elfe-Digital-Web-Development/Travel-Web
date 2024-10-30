@@ -23,44 +23,25 @@ const DeskTopMenu = () => {
       <nav className="main-menu d-none d-xl-block">
         <ul>
           <li className="menu-item has-children">
-            <a href="#">
-              Home
-              <span className="dd-trigger">
-                <i className="far fa-angle-down" />
-              </span>
-            </a>
-            <ul className="sub-menu">
-              {/* <li>
-                <Link href="/">Home 01</Link>
-              </li>
-              <li>
-                <Link href="index-2">Home 02</Link>
-              </li> */}
-              <li>
-                <Link href="index-3">Home 03</Link>
-              </li>
-              {/* <li>
-                <Link href="index-4">Home 04</Link>
-              </li> */}
-            </ul>
+
+            <Link href="index-3">Home</Link>
+
+            
+          
+
           </li>
           <li className="menu-item has-children">
-            <a href="#">
-              Tours
-              <span className="dd-trigger">
-                <i className="far fa-angle-down" />
-              </span>
-            </a>
-            <ul className="sub-menu">
+            <Link href="tour">Tours</Link>
+            {/* <ul className="sub-menu">
               <li>
                 <Link href="tour">Tours</Link>
               </li>
               <li>
                 <Link href="tour-details">Tours Details</Link>
               </li>
-            </ul>
+            </ul> */}
           </li>
-          <li className="menu-item has-children">
+          {/* <li className="menu-item has-children">
             <a href="#">
               Destination
               <span className="dd-trigger">
@@ -75,31 +56,11 @@ const DeskTopMenu = () => {
                 <Link href="destination-details">Destination Details</Link>
               </li>
             </ul>
-          </li>
+          </li> */}
+
           <li className="menu-item has-children">
-            <a href="#">
-              Blog
-              <span className="dd-trigger">
-                <i className="far fa-angle-down" />
-              </span>
-            </a>
-            <ul className="sub-menu">
-              <li>
-                <Link href="blog-list">Blog List</Link>
-              </li>
-              <li>
-                <Link href="blog-details">Blog Details</Link>
-              </li>
-            </ul>
-          </li>
-          <li className="menu-item has-children">
-            <a href="#">
-              Pages
-              <span className="dd-trigger">
-                <i className="far fa-angle-down" />
-              </span>
-            </a>
-            <ul className="sub-menu">
+            <Link href="about">About Us</Link>
+            {/* <ul className="sub-menu">
               <li>
                 <Link href="about">About Us</Link>
               </li>
@@ -118,7 +79,7 @@ const DeskTopMenu = () => {
               <li>
                 <Link href="contact">Contact</Link>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li className="menu-item search-item">
             <div

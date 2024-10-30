@@ -67,10 +67,10 @@ const GallerySection = () => {
           {/*=== Single Gallery Item ===*/}
           <div className="single-gallery-item">
             <div className="gallery-img">
-              <img src="assets/images/gallery/gl-5.jpg" alt="Gallery Image" />
+              <img src="assets/images/gallery/gl-2.jpg" alt="Gallery Image" />
               <div className="hover-overlay">
                 <a
-                  href="assets/images/gallery/gl-5.jpg"
+                  href="assets/images/gallery/gl-2.jpg"
                   className="icon-btn img-popup"
                 >
                   <i className="far fa-plus" />

@@ -41,10 +41,13 @@ const About = () => {
                         <i className="flaticon-camping" />
                       </div>
                       <div className="text">
-                        <h3 className="title">Tent Camping</h3>
+                        <h3 className="title">Tour Services</h3>
                         <p>
-                          Sit amet consectetur integ tincidunt scelerie nodermen
-                          malesuada sceleris massa
+                          Our tour services cover a wide range of experiences,
+                          from historical explorations to cultural immersions.
+                          We provide expertly curated tours that showcase
+                          Ethiopia's unique landscapes and heritage, ensuring an
+                          unforgettable journey for all travelers.
                         </p>
                       </div>
                     </div>
@@ -56,10 +59,12 @@ const About = () => {
                         <i className="flaticon-biking-mountain" />
                       </div>
                       <div className="text">
-                        <h3 className="title">Mountain Biking</h3>
+                        <h3 className="title">Ticketing Services</h3>
                         <p>
-                          Sit amet consectetur integ tincidunt scelerie nodermen
-                          malesuada sceleris massa
+                          Our seamless ticketing solutions make travel planning
+                          effortless. We offer ticketing for domestic and
+                          international flights, ensuring convenience and timely
+                          service for both business and leisure travelers.
                         </p>
                       </div>
                     </div>
@@ -71,10 +76,13 @@ const About = () => {
                         <i className="flaticon-fishing-2" />
                       </div>
                       <div className="text">
-                        <h3 className="title">Fishing &amp; Boat</h3>
+                        <h3 className="title">Car Rental Services</h3>
                         <p>
-                          Sit amet consectetur integ tincidunt scelerie nodermen
-                          malesuada sceleris massa
+                          We provide reliable car rental services tailored for
+                          various needs, including office use, meetings,
+                          conferences, historical tours, ceremonies, camping,
+                          and field trips. Our modern fleet ensures comfort and
+                          safety, offering the right vehicle for every occasion.
                         </p>
                       </div>
                     </div>
@@ -86,10 +94,13 @@ const About = () => {
                         <i className="flaticon-caravan" />
                       </div>
                       <div className="text">
-                        <h3 className="title">RV Caravan Tent</h3>
+                        <h3 className="title">Event Organizing</h3>
                         <p>
-                          Sit amet consectetur integ tincidunt scelerie nodermen
-                          malesuada sceleris massa
+                          We deliver professional event organizing services,
+                          handling everything from corporate functions to social
+                          events. With meticulous planning and attention to
+                          detail, we create memorable experiences that exceed
+                          client expectations.
                         </p>
                       </div>
                     </div>
@@ -102,275 +113,9 @@ const About = () => {
       </section>
       {/*====== End Features Section ======*/}
       {/*====== Start We Section ======*/}
-      <section className="who-we-section">
-        <div className="container">
-          <div className="row align-items-xl-center">
-            <div className="col-lg-6 order-2 order-lg-1">
-              {/*=== We Image Box ===*/}
-              <div className="we-image-box text-center text-lg-left wow fadeInDown">
-                <img
-                  src="assets/images/gallery/we-1.jpg"
-                  className="radius-top-left-right-288"
-                  alt="Image"
-                />
-              </div>
-            </div>
-            <div className="col-lg-6 order-1 order-lg-2">
-              {/*=== We Content Box ===*/}
-              <div className="we-one_content-box">
-                <div className="section-title mb-30 wow fadeInUp">
-                  <span className="sub-title">Who We Are</span>
-                  <h2>Great Opportunity For Adventure &amp; Travels</h2>
-                </div>
-                <p className="wow fadeInDown">
-                  Set perspiciatis unde omnis iste natus error voluptatem
-                  accusantium doloremue laudantium totam rem aperiam eaque quae
-                  abillo inventore veritatis et quasi architecto beatae vitae
-                  dicta sunt explicabo.
-                </p>
-                <div className="skill-wrapper wow fadeInUp">
-                  <div className="single-skill-circle text-center">
-                    <div className="inner-circle">
-                      <div className="line" />
-                      <span className="number">60%</span>
-                    </div>
-                    <h5>Saticfied Clients</h5>
-                  </div>
-                  <div className="single-skill-circle text-center">
-                    <div className="inner-circle">
-                      <div className="line" />
-                      <span className="number">93%</span>
-                    </div>
-                    <h5>Success Rate</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
       {/*====== End We Section ======*/}
-      {/*====== Start Team Section ======*/}
-      <section className="team-section pt-100 pb-70 gray-bg">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-7">
-              {/*====== Section Title ======*/}
-              <div className="section-title text-center mb-50 wow fadeInDown">
-                <span className="sub-title">Team Member</span>
-                <h2>We’ve Expert Team Members Meet With Team</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*====== Single Team Item ======*/}
-              <div className="single-team-item mb-30 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/team-1.jpg" alt="Team Image" />
-                </div>
-                <div className="member-info">
-                  <h4 className="title">Donald D. Schafer</h4>
-                  <p className="position">CEO &amp; Founder</p>
-                  <ul className="social-link">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*====== Single Team Item ======*/}
-              <div className="single-team-item mb-30 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/team-2.jpg" alt="Team Image" />
-                </div>
-                <div className="member-info">
-                  <h4 className="title">William E. Combs</h4>
-                  <p className="position">Web Designer</p>
-                  <ul className="social-link">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*====== Single Team Item ======*/}
-              <div className="single-team-item mb-30 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/team-3.jpg" alt="Team Image" />
-                </div>
-                <div className="member-info">
-                  <h4 className="title">Daniel G. Santana</h4>
-                  <p className="position">Senior Manager</p>
-                  <ul className="social-link">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*====== Single Team Item ======*/}
-              <div className="single-team-item mb-30 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/team-4.jpg" alt="Team Image" />
-                </div>
-                <div className="member-info">
-                  <h4 className="title">Mario M. Troutman</h4>
-                  <p className="position">Web Developer</p>
-                  <ul className="social-link">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*====== Single Team Item ======*/}
-              <div className="single-team-item mb-30 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/team-5.jpg" alt="Team Image" />
-                </div>
-                <div className="member-info">
-                  <h4 className="title">Don O. Vaillancourt</h4>
-                  <p className="position">Junior Marketer</p>
-                  <ul className="social-link">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*====== Single Team Item ======*/}
-              <div className="single-team-item mb-30 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/team-6.jpg" alt="Team Image" />
-                </div>
-                <div className="member-info">
-                  <h4 className="title">Eugene J. Gilliam</h4>
-                  <p className="position">Graphics Designer</p>
-                  <ul className="social-link">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/*====== End Team Section ======*/}
+
       {/*====== Start What We Section ======*/}
       <section className="we-section pt-100 pb-50">
         <div className="container">
@@ -382,54 +127,63 @@ const About = () => {
                   <h2>Great Opportunity For Adventure &amp; Travels</h2>
                 </div>
                 <div className="features-list_one">
-                  <div className="single-features-list mb-40">
-                    <div className="icon-inner d-flex align-items-center">
+                  <div
+                    style={{ gap: 10 }}
+                    className="single-features-list mb-40"
+                  >
+                    <div className="icon-inner d-flex ">
                       <div className="icon-check">
                         <i className="fas fa-badge-check" />
                       </div>
-                      <div className="icon">
-                        <i className="flaticon-helmet" />
-                      </div>
                     </div>
                     <div className="content">
-                      <h4>Safety First Always</h4>
+                      <h4>VISION</h4>
                       <p>
-                        Set perspiciatis unde omnis estenatus voluptatem
-                        accusantium laudantium totarem aperiae
+                        At Addisalem Tour and Travel PLC, our vision is to
+                        become the leading travel and transportation service
+                        provider in Ethiopia by 2030, recognized for our
+                        unwavering commitment to quality, integrity, and
+                        customer satisfaction.
                       </p>
                     </div>
                   </div>
-                  <div className="single-features-list mb-40">
-                    <div className="icon-inner d-flex align-items-center">
+                  <div
+                    style={{ gap: 10 }}
+                    className="single-features-list mb-40"
+                  >
+                    <div className="icon-inner d-flex ">
                       <div className="icon-check">
                         <i className="fas fa-badge-check" />
                       </div>
-                      <div className="icon">
-                        <i className="flaticon-best-price" />
-                      </div>
                     </div>
                     <div className="content">
-                      <h4>Low Price &amp; Friendly</h4>
+                      <h4>MISSION</h4>
                       <p>
-                        Quis autem vel eum iure reprehenderit voluptate velit
-                        esse nihile molestiae consequatur.
+                        Our mission is to provide outstanding services in car
+                        rental, tours, ticketing, and event organizing, tailored
+                        to meet the needs of international and local clients. We
+                        are dedicated to enhancing travel and event experiences
+                        by offering reliable car rentals, curated tours,
+                        seamless ticketing, and professional event planning.
                       </p>
                     </div>
                   </div>
-                  <div className="single-features-list mb-40">
-                    <div className="icon-inner d-flex align-items-center">
+                  <div
+                    style={{ gap: 10 }}
+                    className="single-features-list mb-40"
+                  >
+                    <div className="icon-inner d-flex ">
                       <div className="icon-check">
                         <i className="fas fa-badge-check" />
                       </div>
-                      <div className="icon">
-                        <i className="flaticon-travel" />
-                      </div>
                     </div>
                     <div className="content">
-                      <h4>Trusted Travel Guide</h4>
+                      <h4>VALUES</h4>
                       <p>
-                        At vero accusamus dignissimos ducimus blanditiis
-                        praesentium voluptatum deleniti atque quos
+                        At Addisalem Tour and Travel PLC, we uphold the
+                        following core values: <b>Professionalism</b>{" "}
+                        <b>Customer Commitment</b>: <b>Flexibility</b>:
+                        Integrity:
                       </p>
                     </div>
                   </div>
@@ -495,268 +249,7 @@ const About = () => {
         </div>
       </section>
       {/*====== End CTA Section ======*/}
-      {/*====== Start Testimonial Section ======*/}
-      <section className="testimonial-section pt-60 pb-60">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-8">
-              {/*=== Section Title ===*/}
-              <div className="section-title text-center mb-60 wow fadeInDown">
-                <span className="sub-title">Testimonials</span>
-                <h2>What Our Traveler Say About Our Tour Services</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row align-items-xl-center">
-            <div className="col-xl-5 col-lg-12 order-2 order-xl-1">
-              {/*=== Testimonial Image ===*/}
-              <div className="testimonial-one_image-box mb-40 wow fadeInLeft">
-                <img
-                  src="assets/images/testimonial/testimonial-1.jpg"
-                  alt="Testimonial Image"
-                />
-              </div>
-            </div>
-            <div className="col-xl-7 col-lg-12 order-1 order-xl-2">
-              {/*=== Testimonial Slider ===*/}
-              <Slider
-                {...testimonialSliderOne}
-                className="testimonial-slider-one pl-lg-55 mb-40 wow fadeInRight"
-              >
-                {/*=== Testimonial Item ===*/}
-                <div className="gw-testimonial-item">
-                  <div className="testimonial-inner-content">
-                    <div className="quote-rating-box">
-                      <div className="icon">
-                        <img
-                          src="assets/images/testimonial/quote.png"
-                          alt="quote icon"
-                        />
-                      </div>
-                      <div className="ratings-box">
-                        <h4>Quality Services</h4>
-                        <ul className="ratings">
-                          <li>
-                            <i className="fas fa-star" />
-                          </li>
-                          <li>
-                            <i className="fas fa-star" />
-                          </li>
-                          <li>
-                            <i className="fas fa-star" />
-                          </li>
-                          <li>
-                            <i className="fas fa-star" />
-                          </li>
-                          <li>
-                            <i className="fas fa-star" />
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <p>
-                      To take a trivial example which of usev undertakes
-                      laborious physical exercise excepto obtain advantage from
-                      has any right to find fault with man who chooses to enjoy
-                    </p>
-                    <div className="author-thumb-title">
-                      <div className="author-thumb">
-                        <img
-                          src="assets/images/testimonial/author-1.jpg"
-                          alt="Author Image"
-                        />
-                      </div>
-                      <div className="author-title">
-                        <h3 className="title">Douglas D. Hall</h3>
-                        <p className="position">CEO &amp; Founder</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/*=== Testimonial Item ===*/}
-                <div className="gw-testimonial-item">
-                  <div className="testimonial-inner-content">
-                    <div className="quote-rating-box">
-                      <div className="icon">
-                        <img
-                          src="assets/images/testimonial/quote.png"
-                          alt="quote icon"
-                        />
-                      </div>
-                      <div className="ratings-box">
-                        <h4>Quality Services</h4>
-                        <ul className="ratings">
-                          <li>
-                            <i className="fas fa-star" />
-                          </li>
-                          <li>
-                            <i className="fas fa-star" />
-                          </li>
-                          <li>
-                            <i className="fas fa-star" />
-                          </li>
-                          <li>
-                            <i className="fas fa-star" />
-                          </li>
-                          <li>
-                            <i className="fas fa-star" />
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <p>
-                      To take a trivial example which of usev undertakes
-                      laborious physical exercise excepto obtain advantage from
-                      has any right to find fault with man who chooses to enjoy
-                    </p>
-                    <div className="author-thumb-title">
-                      <div className="author-thumb">
-                        <img
-                          src="assets/images/testimonial/author-1.jpg"
-                          alt="Author Image"
-                        />
-                      </div>
-                      <div className="author-title">
-                        <h3 className="title">Douglas D. Hall</h3>
-                        <p className="position">CEO &amp; Founder</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/*=== Testimonial Item ===*/}
-                <div className="gw-testimonial-item">
-                  <div className="testimonial-inner-content">
-                    <div className="quote-rating-box">
-                      <div className="icon">
-                        <img
-                          src="assets/images/testimonial/quote.png"
-                          alt="quote icon"
-                        />
-                      </div>
-                      <div className="ratings-box">
-                        <h4>Quality Services</h4>
-                        <ul className="ratings">
-                          <li>
-                            <i className="fas fa-star" />
-                          </li>
-                          <li>
-                            <i className="fas fa-star" />
-                          </li>
-                          <li>
-                            <i className="fas fa-star" />
-                          </li>
-                          <li>
-                            <i className="fas fa-star" />
-                          </li>
-                          <li>
-                            <i className="fas fa-star" />
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <p>
-                      To take a trivial example which of usev undertakes
-                      laborious physical exercise excepto obtain advantage from
-                      has any right to find fault with man who chooses to enjoy
-                    </p>
-                    <div className="author-thumb-title">
-                      <div className="author-thumb">
-                        <img
-                          src="assets/images/testimonial/author-1.jpg"
-                          alt="Author Image"
-                        />
-                      </div>
-                      <div className="author-title">
-                        <h3 className="title">Douglas D. Hall</h3>
-                        <p className="position">CEO &amp; Founder</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </Slider>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/*====== End Testimonial Section ======*/}
-      {/*====== Start Partners Section ======*/}
-      <section className="partners-section">
-        <div className="container">
-          {/*=== Partners Slider ===*/}
-          <Slider
-            {...partnerSliderOne}
-            className="partner-slider-one pt-80 pb-70 wow fadeInUp"
-          >
-            {/*=== Partner Item ===*/}
-            <div className="single-partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partner/partner-1.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            {/*=== Partner Item ===*/}
-            <div className="single-partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partner/partner-2.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            {/*=== Partner Item ===*/}
-            <div className="single-partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partner/partner-3.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            {/*=== Partner Item ===*/}
-            <div className="single-partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partner/partner-4.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            {/*=== Partner Item ===*/}
-            <div className="single-partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partner/partner-5.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-            {/*=== Partner Item ===*/}
-            <div className="single-partner-item">
-              <div className="partner-img">
-                <a href="#">
-                  <img
-                    src="assets/images/partner/partner-4.png"
-                    alt="Partner Image"
-                  />
-                </a>
-              </div>
-            </div>
-          </Slider>
-        </div>
-      </section>
-      {/*====== End Partners Section ======*/}
+
       {/*====== Start Gallery Section ======*/}
       <GallerySection />
     </Layout>
