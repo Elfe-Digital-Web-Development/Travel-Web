@@ -4,7 +4,20 @@ import Layout from "@/src/layout/Layout";
 const Contact = () => {
   return (
     <Layout extraClass={"pt-160"}>
-      <PageBanner pageTitle={"Contact Us"} />
+      <section
+        className="page-banner overlay pt-170 pb-220 bg_cover"
+        style={{ backgroundImage: "url(assets/images/bg/page-bg.png)" }}
+      >
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              <div className="page-banner-content text-center text-white">
+                <h1 className="page-title">Contact Us</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/*====== Start Info Section ======*/}
       <section className="contact-info-section pt-100 pb-60">
         <div className="container">
@@ -28,7 +41,7 @@ const Contact = () => {
                 </div>
                 <div className="info">
                   <span className="title">Office Location</span>
-                  <p>55 Main Street, 2nd Floor New York City</p>
+                  <p>Addis Ababa, Ethiopia</p>
                 </div>
               </div>
             </div>
@@ -40,13 +53,11 @@ const Contact = () => {
                 </div>
                 <div className="info">
                   <span className="title">Email Address</span>
+
                   <p>
-                    <a href="mailto:supportinfo@gmail.com">
-                      supportinfo@gmail.com
+                    <a href="mailto:Info@addisalemtourandtravel.com">
+                      @addisalemtourandtravel
                     </a>
-                  </p>
-                  <p>
-                    <a href="mailto:traveladventure.net">traveladventure.net</a>
                   </p>
                 </div>
               </div>
@@ -60,10 +71,10 @@ const Contact = () => {
                 <div className="info">
                   <span className="title">Hotline</span>
                   <p>
-                    <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                    <a href="tel:+000(123)45688">+25190000000</a>
                   </p>
                   <p>
-                    <a href="tel:+8596320">+859 63 20</a>
+                    <a href="tel:+8596320">+25190000000</a>
                   </p>
                 </div>
               </div>

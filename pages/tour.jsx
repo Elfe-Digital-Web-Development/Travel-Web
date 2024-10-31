@@ -55,12 +55,12 @@ const Tour = () => {
                     </p>
                     <p className="price">
                       <i className="fas fa-usd-circle" />
-                      Price: <span className="currency">$</span>93.65
+                      Price: <span className="currency">$</span>0
                     </p>
                     <div className="meta">
                       <span>
                         <i className="far fa-clock" />
-                        05 Days
+                        00 Days
                       </span>
                       <span>
                         <i className="far fa-user" />
@@ -121,12 +121,12 @@ const Tour = () => {
                     </p>
                     <p className="price">
                       <i className="fas fa-usd-circle" />
-                      Price: <span className="currency">$</span>93.65
+                      Price: <span className="currency">$</span>0
                     </p>
                     <div className="meta">
                       <span>
                         <i className="far fa-clock" />
-                        05 Days
+                        00 Days
                       </span>
                       <span>
                         <i className="far fa-user" />
@@ -187,12 +187,12 @@ const Tour = () => {
                     </p>
                     <p className="price">
                       <i className="fas fa-usd-circle" />
-                      Price: <span className="currency">$</span>93.65
+                      Price: <span className="currency">$</span>00
                     </p>
                     <div className="meta">
                       <span>
                         <i className="far fa-clock" />
-                        05 Days
+                        00 Days
                       </span>
                       <span>
                         <i className="far fa-user" />
@@ -253,12 +253,12 @@ const Tour = () => {
                     </p>
                     <p className="price">
                       <i className="fas fa-usd-circle" />
-                      Price: <span className="currency">$</span>93.65
+                      Price: <span className="currency">$</span>00
                     </p>
                     <div className="meta">
                       <span>
                         <i className="far fa-clock" />
-                        05 Days
+                        00 Days
                       </span>
                       <span>
                         <i className="far fa-user" />
@@ -319,12 +319,12 @@ const Tour = () => {
                     </p>
                     <p className="price">
                       <i className="fas fa-usd-circle" />
-                      Price: <span className="currency">$</span>93.65
+                      Price: <span className="currency">$</span>00
                     </p>
                     <div className="meta">
                       <span>
                         <i className="far fa-clock" />
-                        05 Days
+                        00 Days
                       </span>
                       <span>
                         <i className="far fa-user" />
@@ -385,12 +385,12 @@ const Tour = () => {
                     </p>
                     <p className="price">
                       <i className="fas fa-usd-circle" />
-                      Price: <span className="currency">$</span>93.65
+                      Price: <span className="currency">$</span>00
                     </p>
                     <div className="meta">
                       <span>
                         <i className="far fa-clock" />
-                        05 Days
+                        00 Days
                       </span>
                       <span>
                         <i className="far fa-user" />
