@@ -5,68 +5,78 @@ const DefaultHeader = () => {
   return (
     <header className="header-area header-three">
       {/*====== Header Top Bar ======*/}
-      <div className="header-top-bar pt-30 pb-30">
+      <div className="header-top-bar pt-30 pb-3">
         <div className="container-fluid">
-          <div className="row">
+          <div
+            className="row"
+            style={{ display: "flex", alignItems: "center" }}
+          >
             <div className="col-xl-3 d-none d-xl-block">
               {/*====== Site Branding ======*/}
               <div className="site-brading">
-                <Link legacyBehavior href="/index-3">
-                  <a className="brand-logo">
+                <Link legacyBehavior href="/">
+                  <a>
                     <Image
                       src="/assets/images/logo/addis_t_logo.png"
                       alt="Logo"
-                      width={50}
-                      height={50}
+                      width={100}
+                      height={100}
+                      style={{ objectFit: "cover" }}
                     />
                   </a>
                 </Link>
               </div>
             </div>
-            <div className="col-xl-9 col-lg-12">
+            <div className="" style={{ marginTop: "-80px" }}>
               {/*====== Information Wrapper ======*/}
               <div className="information-wrapper">
-                <div className="row">
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
                   <div className="col-lg-4">
                     <div className="single-info-item-two">
-                      <div className="inner-info">
+                      <div style={{ display: "flex", alignItems: "center" }}>
                         <div className="icon">
                           <i className="far fa-map-marker-alt" />
                         </div>
-                        <div className="info">
-                          <span className="title">Office Address</span>
-                          <h5>583 Main Street, USA</h5>
+                        <div className="info ">
+                          <h5>Addis Ababa , Ethiopia</h5>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="col-lg-4">
                     <div className="single-info-item-two">
-                      <div className="inner-info">
+                      <div style={{ display: "flex", alignItems: "center" }}>
                         <div className="icon">
                           <i className="far fa-envelope" />
                         </div>
                         <div className="info">
-                          <span className="title">Email Address</span>
                           <h5>
-                            <a href="mailto:support@gmail.com">
-                              support@gmail.com
+                            <a href="mailto:Info@addisalemtourandtravel.com">
+                              Info@addisalemtourandtravel.com
                             </a>
                           </h5>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-4">
+                  <div style={{ marginLeft: "40px" }}>
                     <div className="single-info-item-two">
-                      <div className="inner-info">
+                      <div
+                        className="inner-info"
+                        style={{ display: "flex", alignItems: "center" }}
+                      >
                         <div className="icon">
                           <i className="far fa-phone-plus" />
                         </div>
-                        <div className="info">
-                          <span className="title">Drop a Line</span>
+                        <div className="">
                           <h5>
-                            <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                            <a href="tel:+000(123)45688">+25190000000</a>
                           </h5>
                         </div>
                       </div>
@@ -85,9 +95,14 @@ const DefaultHeader = () => {
           <div className="primary-menu gray-bg">
             {/*====== Site Branding ======*/}
             <div className="site-brading d-block d-xl-none">
-              <Link legacyBehavior href="/index-3">
+              <Link legacyBehavior href="/">
                 <a className="brand-logo">
-                  <img src="assets/images/logo/addis_logo.jpg.png" alt="Logo" />
+                  <img
+                    width={50}
+                    height={50}
+                    src="/assets/images/logo/addis_t_logo.png"
+                    alt="Logo"
+                  />
                 </a>
               </Link>
             </div>
@@ -128,10 +143,7 @@ const DefaultHeader = () => {
               {/*====== Menu Button ======*/}
               <div className="menu-button mt-40 d-xl-none">
                 <Link legacyBehavior href="/contact">
-                  <a className="main-btn secondary-btn">
-                    Book Now
-                    <i className="fas fa-paper-plane" />
-                  </a>
+                  <a className="main-btn secondary-btn">Book Now</a>
                 </Link>
               </div>
             </div>
@@ -141,7 +153,7 @@ const DefaultHeader = () => {
                 <Link legacyBehavior href="/contact">
                   <a className="main-btn primary-btn">
                     Book Now
-                    <i className="fas fa-paper-plane" />
+                    <i className="primary-btn main-btn" />
                   </a>
                 </Link>
               </div>

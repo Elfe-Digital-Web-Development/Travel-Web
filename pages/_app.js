@@ -1,5 +1,5 @@
-import PreLoader from "@/src/layout/PreLoader";
-import "@/styles/globals.css";
+import PreLoader from "../src/layout/PreLoader";
+import "../styles/globals.css";
 import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 
@@ -27,7 +27,7 @@ export default function App({ Component, pageProps }) {
         {/*====== Favicon Icon ======*/}
         <link
           rel="shortcut icon"
-          href="assets/images/favicon.ico"
+          href="assets/images/logo/addis_logo.jpg"
           type="image/png"
         />
         {/*====== Google Fonts ======*/}

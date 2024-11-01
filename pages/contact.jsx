@@ -4,7 +4,20 @@ import Layout from "@/src/layout/Layout";
 const Contact = () => {
   return (
     <Layout extraClass={"pt-160"}>
-      <PageBanner pageTitle={"Contact Us"} />
+      <section
+        className="page-banner overlay pt-170 pb-220 bg_cover"
+        style={{ backgroundImage: "url(assets/images/bg/page-bg.png)" }}
+      >
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              <div className="page-banner-content text-center text-white">
+                <h1 className="page-title">Contact Us</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/*====== Start Info Section ======*/}
       <section className="contact-info-section pt-100 pb-60">
         <div className="container">
@@ -28,7 +41,7 @@ const Contact = () => {
                 </div>
                 <div className="info">
                   <span className="title">Office Location</span>
-                  <p>55 Main Street, 2nd Floor New York City</p>
+                  <p>Addis Ababa, Ethiopia</p>
                 </div>
               </div>
             </div>
@@ -40,13 +53,11 @@ const Contact = () => {
                 </div>
                 <div className="info">
                   <span className="title">Email Address</span>
+
                   <p>
-                    <a href="mailto:supportinfo@gmail.com">
-                      supportinfo@gmail.com
+                    <a href="mailto:Info@addisalemtourandtravel.com">
+                      @addisalemtourandtravel
                     </a>
-                  </p>
-                  <p>
-                    <a href="mailto:traveladventure.net">traveladventure.net</a>
                   </p>
                 </div>
               </div>
@@ -60,10 +71,10 @@ const Contact = () => {
                 <div className="info">
                   <span className="title">Hotline</span>
                   <p>
-                    <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                    <a href="tel:+000(123)45688">+25190000000</a>
                   </p>
                   <p>
-                    <a href="tel:+8596320">+859 63 20</a>
+                    <a href="tel:+8596320">+25190000000</a>
                   </p>
                 </div>
               </div>
@@ -76,7 +87,7 @@ const Contact = () => {
       <section className="contact-page-map pb-100 wow fadeInUp">
         {/*=== Map Box ===*/}
         <div className="map-box">
-          <iframe src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed" />
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126115.11523351159!2d38.7781448!3d8.96317685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85cef5ab402d%3A0x8467b6b037a24d49!2sAddis%20Ababa!5e0!3m2!1sen!2set!4v1730411828718!5m2!1sen!2set" />
         </div>
       </section>
       {/*====== End Contact Map Section ======*/}

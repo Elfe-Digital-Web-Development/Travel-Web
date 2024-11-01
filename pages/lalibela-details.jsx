@@ -12,32 +12,21 @@ const TourDetails = () => {
       <section className="place-details-section">
         {/*=== Place Slider ===*/}
         <div className="place-slider-area overflow-hidden wow fadeInUp">
-          <Slider {...placeSlider} className="place-slider">
-            <div className="place-slider-item">
-              <div className="place-img">
-                <img
-                  src="assets/images/place/single-place-4.jpg"
-                  alt="Place Image"
-                />
-              </div>
+          <div className="place-slider-item">
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                margin: "auto",
+                justifyContent: "center",
+                width: "1120px",
+                height: "400px",
+                objectFit: "cover",
+              }}
+            >
+              <img src="assets/images/place/R.jpg" alt="Place Image" />
             </div>
-            <div className="place-item">
-              <div className="place-img">
-                <img
-                  src="assets/images/place/single-place-2.jpg"
-                  alt="Place Image"
-                />
-              </div>
-            </div>
-            <div className="place-slider-item">
-              <div className="place-img">
-                <img
-                  src="assets/images/place/single-place-3.jpg"
-                  alt="Place Image"
-                />
-              </div>
-            </div>
-          </Slider>
+          </div>
         </div>
         <div className="container">
           {/*=== Tour Details Wrapper ===*/}
@@ -62,7 +51,7 @@ const TourDetails = () => {
                       </div>
                       <div className="info">
                         <h4>
-                          <span>From</span>$96.54
+                          <span>From</span>ETB 0
                         </h4>
                       </div>
                     </div>
@@ -72,7 +61,7 @@ const TourDetails = () => {
                       </div>
                       <div className="info">
                         <h4>
-                          <span>Durations</span>7 Days
+                          <span>Durations</span>0 Days
                         </h4>
                       </div>
                     </div>
@@ -82,7 +71,7 @@ const TourDetails = () => {
                       </div>
                       <div className="info">
                         <h4>
-                          <span>Tour Type</span>City Tour
+                          <span>Tour Type</span>Country Tour
                         </h4>
                       </div>
                     </div>
@@ -91,94 +80,50 @@ const TourDetails = () => {
               </div>
             </div>
             {/*=== Tour Area Nav ===*/}
-            <div className="tour-area-nav pt-20 pb-20 wow fadeInUp">
-              <div className="row align-items-center">
-                <div className="col-md-4">
-                  <div className="ratings-box">
-                    <ul className="ratings">
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <a href="#">(3k Riviews)</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="col-md-8">
-                  <div className="share-nav">
-                    <a href="#">
-                      Share
-                      <i className="far fa-share" />
-                    </a>
-                    <a href="#">
-                      Reviews
-                      <i className="far fa-share" />
-                    </a>
-                    <a href="#">
-                      Whislist
-                      <i className="far fa-heart" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+
             <div className="row">
               <div className="col-xl-8">
                 {/*=== Place Content Wrap ===*/}
                 <div className="place-content-wrap pt-45 wow fadeInUp">
                   <h3 className="title">Explore Tours</h3>
                   <p>
-                    Sed ut perspiciatis unde omniste natus error sit voluptatem
-                    accusantium doloremque laudantium totam rem aperiam, eaque
-                    ip quae abillo inventore veritatis et quasi architecto
-                    beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
-                    sed quia consequuntur magni dolores eos qui ratione
-                    voluptatem sequi nesciunt. Neque porro quisquam est, qui
-                    dolorem ipsum quia dolor si amet consectetur adipisci velit
-                    sed quian numquam eius modi tempora incidunt ut labore
-                    dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-                    veniam qunostrum exercitationem ullam corporis suscipit
-                    laboriosaey nisi ut aliquid ex ea commodi consequatur? Quis
-                    autem vel eum iure reprehenderit qui in ea voluptate velit
-                    esse quam nihil molestiae consequatur veillum qui dolorem
-                    voluptas nulla pariatur
+                    Founded in the late 12th century, the town of Lalibela—a
+                    UNESCO World Heritage site often hailed as the "8th Wonder
+                    of the World"—is carved directly into hillside rock amidst a
+                    strikingly rugged landscape. The primary draw for visitors
+                    is its remarkable complex of 11 monolithic churches carved
+                    from stone, as well as mountain treks and visits to
+                    monasteries outside the town. A top destination on the
+                    Northern Circuit, Lalibela sees particularly high popularity
+                    during religious holidays and is easily accessible by flight
+                    from Addis Ababa.
                   </p>
                   <h4>Advance Facilities</h4>
                   <p>
-                    Neque porro quisquam est dolorem ipsum quia dolor si amet
-                    consectetur adipisci velit sed quian numquam eius tempora
-                    incidunt labore dolore magnam aliquam quaerat voluptatem.
+                    upon arrival meet and assist by Addisalem representative
+                    Lalibela is known for its well-preserved Rock Hewn churches;
+                    each rock churches are carved out and crafted beautifully
+                    from a single volcanic rock. Here you head on back to 11th
+                    c. mythical rock hewn churches of Lalibela. The mysterious
+                    Lalibela churches are widely regarded as the 8th wonder of
+                    the world. Explore as many rock-hewn churches as you can.
                   </p>
                   <div className="row align-items-lg-center">
                     <div className="col-lg-5">
                       <ul className="check-list">
                         <li>
                           <i className="fas fa-badge-check" />
-                          Parking in the Camp
+                          Ground transportation service including all transfers
                         </li>
                         <li>
                           <i className="fas fa-badge-check" />
-                          Pick and Drop Services
+                          Entrance fees according to the tour program
                         </li>
                         <li>
                           <i className="fas fa-badge-check" />
-                          Washing Machines
+                          English speaking local guide
                         </li>
-                        <li>
+                        {/* <li>
                           <i className="fas fa-badge-check" />
                           Cruise Dinner &amp; Music Event
                         </li>
@@ -189,26 +134,25 @@ const TourDetails = () => {
                         <li>
                           <i className="fas fa-badge-check" />
                           Motorhome service
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                           <i className="fas fa-badge-check" />1 Meal Per Day
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                     <div className="col-lg-7">
                       <img
-                        src="assets/images/place/single-place-4.jpg"
+                        src="assets/images/place/R.jpg"
                         className="mb-20 w-100"
                         alt="place image"
                       />
                     </div>
                   </div>
-                  <h4>Tour Plan</h4>
-                  <p>
-                    Quis autem vel eum iure reprehenderit qui in ea voluptate
-                    velit esse quam nihil molestiae consequatur vel eillum qui
-                    dolorem eum fugiat quo voluptas nulla pariatur
-                  </p>
+                  <div className="map-box mb-60 wow fadeInUp">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31217.336770399583!2d39.0098098420956!3d12.032014851137928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x16413eee814f2d03%3A0xf27414e782ae4b62!2sLalibela!5e0!3m2!1sen!2set!4v1730448582507!5m2!1sen!2set"></iframe>
+                  </div>
+
+                  {/* Lucy's Fossil */}
                 </div>
                 {/*=== Days Area ===*/}
                 <Tab.Container defaultActiveKey={"day1"}>
@@ -396,7 +340,7 @@ const TourDetails = () => {
                 </Tab.Container>
                 {/*=== Map Box ===*/}
                 <div className="map-box mb-60 wow fadeInUp">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15608.754767870934!2d39.04144633952827!3d12.030527054419178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x16413eee814f2d03%3A0xf27414e782ae4b62!2sLalibela!5e0!3m2!1sen!2set!4v1730277418890!5m2!1sen!2set"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31217.336770399583!2d39.0098098420956!3d12.032014851137928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x16413eee814f2d03%3A0xf27414e782ae4b62!2sLalibela!5e0!3m2!1sen!2set!4v1730448582507!5m2!1sen!2set"></iframe>
                 </div>
                 {/*=== Calendar Box ===*/}
                 <div className="calendar-wrapper wow fadeInUp">
@@ -405,467 +349,9 @@ const TourDetails = () => {
                 {/*=== Releted Tour Place ===*/}
                 <RelatedTours />
                 {/*=== Reviews Area ===*/}
-                <div className="reviews-wrapper mb-60 wow fadeInUp">
-                  <div className="reviews-inner-box">
-                    <div className="rating-value">
-                      <h4>Clients Reviews</h4>
-                      <div className="rate-score">4.9</div>
-                      <ul className="ratings">
-                        <li>
-                          <i className="fas fa-star" />
-                        </li>
-                        <li>
-                          <i className="fas fa-star" />
-                        </li>
-                        <li>
-                          <i className="fas fa-star" />
-                        </li>
-                        <li>
-                          <i className="fas fa-star" />
-                        </li>
-                        <li>
-                          <i className="fas fa-star" />
-                        </li>
-                        <li>
-                          <a href="#">(4.9)</a>
-                        </li>
-                      </ul>
-                      <span className="reviews">3k Reviews</span>
-                    </div>
-                    <div className="reviews-progress">
-                      <div className="single-progress-bar">
-                        <div className="progress-title">
-                          <h6>
-                            Quality <span className="rate">4.8</span>
-                          </h6>
-                        </div>
-                        <div className="progress">
-                          <div
-                            className="progress-bar wow slideInLeft"
-                            style={{ width: "85%" }}
-                          />
-                        </div>
-                      </div>
-                      <div className="single-progress-bar">
-                        <div className="progress-title">
-                          <h6>
-                            Team Member<span className="rate">4.6</span>
-                          </h6>
-                        </div>
-                        <div className="progress">
-                          <div
-                            className="progress-bar wow slideInLeft"
-                            style={{ width: "75%" }}
-                          />
-                        </div>
-                      </div>
-                      <div className="single-progress-bar">
-                        <div className="progress-title">
-                          <h6>
-                            Locations<span className="rate">4.7</span>
-                          </h6>
-                        </div>
-                        <div className="progress">
-                          <div
-                            className="progress-bar wow slideInLeft"
-                            style={{ width: "90%" }}
-                          />
-                        </div>
-                      </div>
-                      <div className="single-progress-bar">
-                        <div className="progress-title">
-                          <h6>
-                            Cost<span className="rate">4.9</span>
-                          </h6>
-                        </div>
-                        <div className="progress">
-                          <div
-                            className="progress-bar wow slideInLeft"
-                            style={{ width: "95%" }}
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+
                 {/*=== Comments Area ===*/}
-                <div className="comments-area wow fadeInUp">
-                  <ul className="comment-list">
-                    <li>
-                      <div className="comment">
-                        <div className="comment-avatar">
-                          <img
-                            src="assets/images/place/comment-1.jpg"
-                            alt="comment author"
-                          />
-                        </div>
-                        <div className="comment-wrap">
-                          <div className="comment-author-content">
-                            <span className="author-name">
-                              Glenn M. Whitaker
-                              <span className="time">
-                                <i className="far fa-clock" />5 Minute Ago
-                              </span>
-                            </span>
-                            <span className="position">CEO &amp; Founder</span>
-                            <ul className="comment-rating-ul">
-                              <li>
-                                <span className="title">Quality</span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                              </li>
-                              <li>
-                                <span className="title">Location</span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                              </li>
-                              <li>
-                                <span className="title">Services</span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                              </li>
-                              <li>
-                                <span className="title">Team</span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                              </li>
-                              <li>
-                                <span className="title">Price</span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                              </li>
-                            </ul>
-                            <p>
-                              At vero eos et accusamus et iusto odio dignissimos
-                              ducimus qui blanditiis praesentium voluptatum
-                              deleniti atque corrupti quos dolores et quas
-                              molestias excepture
-                            </p>
-                            <a href="#" className="btn-link">
-                              Reply
-                              <i className="far fa-angle-double-right" />
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      <ul className="comment-reply">
-                        <li>
-                          <div className="comment">
-                            <div className="comment-avatar">
-                              <img
-                                src="assets/images/place/comment-2.jpg"
-                                alt="comment author"
-                              />
-                            </div>
-                            <div className="comment-wrap">
-                              <div className="comment-author-content">
-                                <span className="author-name">
-                                  Glenn M. Whitaker
-                                  <span className="time">
-                                    <i className="far fa-clock" />5 Minute Ago
-                                  </span>
-                                </span>
-                                <span className="position">
-                                  CEO &amp; Founder
-                                </span>
-                                <ul className="comment-rating-ul">
-                                  <li>
-                                    <span className="title">Quality</span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                  </li>
-                                  <li>
-                                    <span className="title">Location</span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                  </li>
-                                  <li>
-                                    <span className="title">Services</span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                  </li>
-                                  <li>
-                                    <span className="title">Team</span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                  </li>
-                                  <li>
-                                    <span className="title">Price</span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                    <span>
-                                      <i className="fas fa-star" />
-                                    </span>
-                                  </li>
-                                </ul>
-                                <p>
-                                  At vero eos et accusamus et iusto odio
-                                  dignissimos ducimus qui blanditiis praesentium
-                                  voluptatum deleniti atque corrupti quos
-                                  dolores et quas molestias excepture
-                                </p>
-                                <a href="#" className="btn-link">
-                                  Reply
-                                  <i className="far fa-angle-double-right" />
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <div className="comment">
-                        <div className="comment-avatar">
-                          <img
-                            src="assets/images/place/comment-3.jpg"
-                            alt="comment author"
-                          />
-                        </div>
-                        <div className="comment-wrap">
-                          <div className="comment-author-content">
-                            <span className="author-name">
-                              Glenn M. Whitaker
-                              <span className="time">
-                                <i className="far fa-clock" />5 Minute Ago
-                              </span>
-                            </span>
-                            <span className="position">CEO &amp; Founder</span>
-                            <ul className="comment-rating-ul">
-                              <li>
-                                <span className="title">Quality</span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                              </li>
-                              <li>
-                                <span className="title">Location</span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                              </li>
-                              <li>
-                                <span className="title">Services</span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                              </li>
-                              <li>
-                                <span className="title">Team</span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                              </li>
-                              <li>
-                                <span className="title">Price</span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                                <span>
-                                  <i className="fas fa-star" />
-                                </span>
-                              </li>
-                            </ul>
-                            <p>
-                              At vero eos et accusamus et iusto odio dignissimos
-                              ducimus qui blanditiis praesentium voluptatum
-                              deleniti atque corrupti quos dolores et quas
-                              molestias excepture
-                            </p>
-                            <a href="#" className="btn-link">
-                              Reply
-                              <i className="far fa-angle-double-right" />
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
+
                 {/*===  Comments Form  ===*/}
                 <div className="comments-respond mb-30 wow fadeInUp">
                   <h3 className="comments-heading" style={{ marginBottom: 15 }}>
@@ -1085,7 +571,7 @@ const TourDetails = () => {
                           </div>
                         </div>
                         <div className="booking-item">
-                          <label>Child (0-12 years) $0</label>
+                          <label>Child (0-12 years) ETB 0</label>
                           <div className="bk-item booking-user">
                             <i className="far fa-user" />
                             <select className="wide">
@@ -1162,7 +648,7 @@ const TourDetails = () => {
                     </ul>
                   </div>
                   {/*=== Recent Place Widget ===*/}
-                  <div className="sidebar-widget recent-place-widget mb-40 wow fadeInUp">
+                  {/* <div className="sidebar-widget recent-place-widget mb-40 wow fadeInUp">
                     <h4 className="widget-title">Last Minute Deals</h4>
                     <ul className="recent-place-list">
                       <li className="place-thumbnail-content">
@@ -1268,9 +754,9 @@ const TourDetails = () => {
                         </div>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                   {/*=== Banner Widget ===*/}
-                  <div className="sidebar-widget sidebar-banner-widget wow fadeInUp mb-40">
+                  {/* <div className="sidebar-widget sidebar-banner-widget wow fadeInUp mb-40">
                     <div className="banner-widget-content">
                       <div className="banner-img">
                         <img
@@ -1290,7 +776,7 @@ const TourDetails = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

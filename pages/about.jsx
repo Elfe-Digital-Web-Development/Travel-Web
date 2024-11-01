@@ -18,12 +18,12 @@ const About = () => {
                 {/*=== Section Title ===*/}
                 <div className="section-title mb-30">
                   <span className="sub-title">Availability</span>
-                  <h2>Explore GoWilds Real Adventure &amp; Travels</h2>
+                  <h2>Explore Addisalem Real Adventure &amp; Travels</h2>
                 </div>
                 <p className="mb-30">
-                  Sit amet consectetur integer tincidunt sceleries noda lesry
-                  volutpat neque fermentum malesuada scelequecy leocras odio
-                  blandit rhoncus eues feugiat
+                  "Adventure awaits! Discover breathtaking destinations, hidden
+                  gems, and unforgettable moments with us. Pack your bags, let’s
+                  explore the world together!"
                 </p>
                 <a href="#" className="main-btn filled-btn">
                   Learn More
@@ -227,7 +227,9 @@ const About = () => {
       {/*====== Start CTA Section ======*/}
       <section
         className="cta-bg overlay bg_cover pt-150 pb-150"
-        style={{ backgroundImage: "url(assets/images/bg/cta-bg.jpg)" }}
+        style={{
+          backgroundImage: "url(assets/images/bg/erta-ale-volcano-is-a.jpg)",
+        }}
       >
         <div className="container">
           <div className="row justify-content-center">

@@ -4,9 +4,25 @@ import Layout from "@/src/layout/Layout";
 const Events = () => {
   return (
     <Layout extraClass={"pt-160"}>
-      <PageBanner pageTitle={"Events"} />
+      <section
+        className="page-banner overlay pt-170 pb-220 bg_cover"
+        style={{
+          backgroundImage:
+            "url(https://spotme.com/wp-content/uploads/2020/07/Hero-1.jpg)",
+        }}
+      >
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              <div className="page-banner-content text-center text-white">
+                <h1 className="page-title">Events</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/*====== Start Booking Section ======*/}
-      <section className="booking-form-section">
+      {/* <section className="booking-form-section">
         <div className="container-fluid">
           <div className="booking-form-wrapper p-r z-2">
             <form className="booking-form-two">
@@ -58,7 +74,7 @@ const Events = () => {
             </form>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*====== End Booking Section ======*/}
       {/*====== Start Events Section ======*/}
       <section className="events-section pt-100 pb-100">
@@ -99,14 +115,14 @@ const Events = () => {
                   <div className="meta">
                     <span>
                       <i className="far fa-calendar-alt" />
-                      <a href="#">September 25, 2022</a>
+                      <a href="#">September 25, 2024</a>
                     </span>
                     <h3 className="title">
-                      <a href="#">How To Enjoy Adventure Trip With Gowilds</a>
+                      <a href="#">How To Enjoy Adventure Trip With Addisalem</a>
                     </h3>
                     <p className="location">
-                      <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
-                      Atoll, Maldives
+                      <i className="far fa-map-marker-alt" /> Addis Ababa
+                      Ethiopia
                     </p>
                   </div>
                 </div>
@@ -149,7 +165,7 @@ const Events = () => {
                   <div className="meta">
                     <span>
                       <i className="far fa-calendar-alt" />
-                      <a href="#">September 25, 2022</a>
+                      <a href="#">September 25, 2024</a>
                     </span>
                     <h3 className="title">
                       <a href="#">How To Enjoy Adventure Trip With Gowilds</a>

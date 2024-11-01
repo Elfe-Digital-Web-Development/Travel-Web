@@ -17,9 +17,9 @@ export const stickyNav = () => {
 };
 
 // animation
-export const animation = () => {
-  if (typeof window !== "undefined") {
-    window.WOW = require("wowjs");
-  }
-  new WOW.WOW().init();
-};
+// export const animation = () => {
+//   if (typeof window !== "undefined") {
+//     window.WOW = require("wowjs");
+//   }
+//   new WOW.WOW().init();
+// };

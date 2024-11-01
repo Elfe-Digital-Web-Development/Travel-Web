@@ -9,9 +9,9 @@ const Layout = ({ header, children, footerBG, noFooter, extraClass }) => {
   useEffect(() => {
     niceSelect();
   }, []);
-  useEffect(() => {
-    animation();
-  }, []);
+  // useEffect(() => {
+  //   animation();
+  // }, []);
   return (
     <Fragment>
       <VideoPopup />

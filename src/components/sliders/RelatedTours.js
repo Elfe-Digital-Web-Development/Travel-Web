@@ -68,7 +68,7 @@ export default class RelatedTours extends Component {
                   </li>
                 </ul>
                 <h4 className="title">
-                  <Link legacyBehavior href="/tour-details">
+                  <Link legacyBehavior href="/abijatta-details">
                     <a>Abijatta-Shalla National Park</a>
                   </Link>
                 </h4>
@@ -90,7 +90,7 @@ export default class RelatedTours extends Component {
                     25
                   </span>
                   <span>
-                    <Link legacyBehavior href="/tour-details">
+                    <Link legacyBehavior href="/abijatta-details">
                       <a>
                         Details
                         <i className="far fa-long-arrow-right" />
@@ -129,7 +129,7 @@ export default class RelatedTours extends Component {
                   </li>
                 </ul>
                 <h4 className="title">
-                  <Link legacyBehavior href="/tour-details">
+                  <Link legacyBehavior href="/lalibela-details">
                     <a>Lalibela Church</a>
                   </Link>
                 </h4>
@@ -151,7 +151,7 @@ export default class RelatedTours extends Component {
                     25
                   </span>
                   <span>
-                    <Link legacyBehavior href="/tour-details">
+                    <Link legacyBehavior href="/lalibela-details">
                       <a>
                         Details
                         <i className="far fa-long-arrow-right" />
@@ -190,7 +190,7 @@ export default class RelatedTours extends Component {
                   </li>
                 </ul>
                 <h4 className="title">
-                  <Link legacyBehavior href="/tour-details">
+                  <Link legacyBehavior href="/lucy-details">
                     <a>Lucy's Fossil</a>
                   </Link>
                 </h4>
@@ -212,7 +212,7 @@ export default class RelatedTours extends Component {
                     25
                   </span>
                   <span>
-                    <Link legacyBehavior href="/tour-details">
+                    <Link legacyBehavior href="/lucy-details">
                       <a>
                         Details
                         <i className="far fa-long-arrow-right" />
