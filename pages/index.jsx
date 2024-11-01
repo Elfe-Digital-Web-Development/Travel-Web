@@ -1,10 +1,10 @@
-import Home3Slider from "@/src/components/sliders/Home3";
-import Layout from "@/src/layout/Layout";
+import Home3Slider from "../src/components/sliders/Home3";
+import Layout from "../src/layout/Layout";
 import {
   partnerSliderOne,
   sliderActive3Item,
   sliderActive3ItemDot,
-} from "@/src/sliderProps";
+} from "/src/sliderProps";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import Slider from "react-slick";

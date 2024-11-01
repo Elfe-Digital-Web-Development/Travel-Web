@@ -5,7 +5,7 @@ import Link from "next/link";
 const Tour = () => {
   return (
     <Layout extraClass={"pt-160"}>
-      <PageBanner pageTitle={"Explore Tour Place"} />
+      <PageBanner pageTitle={"Explore Our Services"} />
       {/*====== Start Booking Section ======*/}
       <section className="booking-form-section pb-100"></section>
       {/*====== End Booking Section ======*/}
@@ -18,7 +18,7 @@ const Tour = () => {
               <div className="single-place-item mb-60 wow fadeInUp">
                 <div className="place-img">
                   <img
-                    src="assets/images/place/place-1.jpg"
+                    src="assets/images/place/Toyota-Hiece-2017-model-500x223.jpg"
                     alt="Place Image"
                   />
                 </div>
@@ -45,17 +45,17 @@ const Tour = () => {
                       </li>
                     </ul>
                     <h4 className="title">
-                      <Link legacyBehavior href="/abijatta-details">
-                        <a>Abijatta-Shalla National Park</a>
+                      <Link legacyBehavior href="#">
+                        <a>Toyota Hiece Minivan (Hiroof)</a>
                       </Link>
                     </h4>
                     <p className="location">
                       <i className="far fa-map-marker-alt" />
-                      Ethiopia, Oromia Region
+                      Ethiopia
                     </p>
                     <p className="price">
                       <i className="fas fa-usd-circle" />
-                      Price: <span className="currency">$</span>0
+                      Price: <span className="currency">ETB</span>0
                     </p>
                     <div className="meta">
                       <span>
@@ -63,16 +63,15 @@ const Tour = () => {
                         00 Days
                       </span>
                       <span>
-                        <i className="far fa-user" />
-                        25
+                        <i className="far fa-user" />0
                       </span>
                       <span>
-                        <Link legacyBehavior href="/abijatta-details">
+                        {/* <Link legacyBehavior href="/car-details"> 
                           <a>
                             Details
-                            <i className="far fa-long-arrow-right" />
-                          </a>
-                        </Link>
+                             <i className="far fa-long-arrow-right" /> 
+                            </a>
+                        </Link> */}
                       </span>
                     </div>
                   </div>
@@ -84,7 +83,7 @@ const Tour = () => {
               <div className="single-place-item mb-60 wow fadeInUp">
                 <div className="place-img">
                   <img
-                    src="assets/images/place/place-2.jpg"
+                    src="assets/images/place/Toyota-land-cruiser-Rental-in-Ethiopia-500x258.jpg"
                     alt="Place Image"
                   />
                 </div>
@@ -111,17 +110,17 @@ const Tour = () => {
                       </li>
                     </ul>
                     <h4 className="title">
-                      <Link legacyBehavior href="/lalibela-details">
-                        <a>Lalibela Rock-Hewn Churches</a>
+                      <Link legacyBehavior href="#">
+                        <a>Toyota Land Cruisers Mark 2</a>
                       </Link>
                     </h4>
                     <p className="location">
                       <i className="far fa-map-marker-alt" />
-                      Ethiopia, Amhara
+                      Ethiopia
                     </p>
                     <p className="price">
                       <i className="fas fa-usd-circle" />
-                      Price: <span className="currency">$</span>0
+                      Price: <span className="currency">ETB</span>0
                     </p>
                     <div className="meta">
                       <span>
@@ -129,17 +128,16 @@ const Tour = () => {
                         00 Days
                       </span>
                       <span>
-                        <i className="far fa-user" />
-                        25
+                        <i className="far fa-user" />0
                       </span>
-                      <span>
-                        <Link legacyBehavior href="/lalibela-details">
+                      {/* <span>
+                        <Link legacyBehavior href="/tour-details">
                           <a>
                             Details
                             <i className="far fa-long-arrow-right" />
                           </a>
                         </Link>
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                 </div>
@@ -150,7 +148,7 @@ const Tour = () => {
               <div className="single-place-item mb-60 wow fadeInUp">
                 <div className="place-img">
                   <img
-                    src="assets/images/place/place-3.jpg"
+                    src="assets/images/place/Big-Bus-Rental-in-Ethiopia.jpg"
                     alt="Place Image"
                   />
                 </div>
@@ -177,17 +175,17 @@ const Tour = () => {
                       </li>
                     </ul>
                     <h4 className="title">
-                      <Link legacyBehavior href="/lucy-details">
-                        <a>Lucy's Fossil</a>
+                      <Link legacyBehavior href="#">
+                        <a>Big Buses</a>
                       </Link>
                     </h4>
                     <p className="location">
                       <i className="far fa-map-marker-alt" />
-                      Addis Ababa, Ethiopia
+                      Ethiopia
                     </p>
                     <p className="price">
                       <i className="fas fa-usd-circle" />
-                      Price: <span className="currency">$</span>00
+                      Price: <span className="currency">ETB</span>00
                     </p>
                     <div className="meta">
                       <span>
@@ -195,17 +193,16 @@ const Tour = () => {
                         00 Days
                       </span>
                       <span>
-                        <i className="far fa-user" />
-                        25
+                        <i className="far fa-user" />0
                       </span>
-                      <span>
-                        <Link legacyBehavior href="/lucy-details">
+                      {/* <span>
+                        <Link legacyBehavior href="/tour-details">
                           <a>
                             Details
                             <i className="far fa-long-arrow-right" />
                           </a>
                         </Link>
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                 </div>
@@ -216,7 +213,7 @@ const Tour = () => {
               <div className="single-place-item mb-60 wow fadeInUp">
                 <div className="place-img">
                   <img
-                    src="assets/images/place/Afdera-Salt-Lake-Ethiopia.jpg"
+                    src="assets/images/place/Ethiopia-Car-Rental-Coaster-bus-500x372.jpg"
                     alt="Place Image"
                   />
                 </div>
@@ -243,17 +240,17 @@ const Tour = () => {
                       </li>
                     </ul>
                     <h4 className="title">
-                      <Link legacyBehavior href="/afdera-details">
-                        <a>Afdera Salt</a>
+                      <Link legacyBehavior href="#">
+                        <a>Toyota Coaster Bus</a>
                       </Link>
                     </h4>
                     <p className="location">
                       <i className="far fa-map-marker-alt" />
-                      Ethiopia, Afar
+                      Ethiopia
                     </p>
                     <p className="price">
                       <i className="fas fa-usd-circle" />
-                      Price: <span className="currency">$</span>00
+                      Price: <span className="currency">ETB</span>00
                     </p>
                     <div className="meta">
                       <span>
@@ -261,17 +258,16 @@ const Tour = () => {
                         00 Days
                       </span>
                       <span>
-                        <i className="far fa-user" />
-                        25
+                        <i className="far fa-user" />0
                       </span>
-                      <span>
-                        <Link legacyBehavior href="/afdera-details">
+                      {/* <span>
+                        <Link legacyBehavior href="/tour-details">
                           <a>
                             Details
                             <i className="far fa-long-arrow-right" />
                           </a>
                         </Link>
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                 </div>
@@ -282,7 +278,7 @@ const Tour = () => {
               <div className="single-place-item mb-60 wow fadeInUp">
                 <div className="place-img">
                   <img
-                    src="assets/images/place/place-5.jpg"
+                    src="assets/images/place/Toyota-L.Cruiser-Cobra-500x281.jpg"
                     alt="Place Image"
                   />
                 </div>
@@ -309,17 +305,17 @@ const Tour = () => {
                       </li>
                     </ul>
                     <h4 className="title">
-                      <Link legacyBehavior href="/ertale-details">
-                        <a>Ertale Volcano</a>
+                      <Link legacyBehavior href="#">
+                        <a>Toyota Land Cruiser Cobra 3</a>
                       </Link>
                     </h4>
                     <p className="location">
                       <i className="far fa-map-marker-alt" />
-                      Ethiopia, Afar
+                      Ethiopia
                     </p>
                     <p className="price">
                       <i className="fas fa-usd-circle" />
-                      Price: <span className="currency">$</span>00
+                      Price: <span className="currency">ETB</span>00
                     </p>
                     <div className="meta">
                       <span>
@@ -327,17 +323,16 @@ const Tour = () => {
                         00 Days
                       </span>
                       <span>
-                        <i className="far fa-user" />
-                        25
+                        <i className="far fa-user" />0
                       </span>
-                      <span>
-                        <Link legacyBehavior href="/ertale-details">
+                      {/* <span>
+                        <Link legacyBehavior href="/tour-details">
                           <a>
                             Details
                             <i className="far fa-long-arrow-right" />
                           </a>
                         </Link>
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                 </div>
@@ -348,7 +343,7 @@ const Tour = () => {
               <div className="single-place-item mb-60 wow fadeInUp">
                 <div className="place-img">
                   <img
-                    src="assets/images/place/place-6.jpg"
+                    src="assets/images/place/Toyota-Prado-Rental-in-Ethiopia.jpg"
                     alt="Place Image"
                   />
                 </div>
@@ -375,17 +370,17 @@ const Tour = () => {
                       </li>
                     </ul>
                     <h4 className="title">
-                      <Link legacyBehavior href="/silase-details">
-                        St.Silase Cathedral Church
+                      <Link legacyBehavior href="#">
+                        Toyota Prado
                       </Link>
                     </h4>
                     <p className="location">
                       <i className="far fa-map-marker-alt" />
-                      Addis Ababa, Ethiopia
+                      Ethiopia
                     </p>
                     <p className="price">
                       <i className="fas fa-usd-circle" />
-                      Price: <span className="currency">$</span>00
+                      Price: <span className="currency">ETB</span>00
                     </p>
                     <div className="meta">
                       <span>
@@ -393,17 +388,16 @@ const Tour = () => {
                         00 Days
                       </span>
                       <span>
-                        <i className="far fa-user" />
-                        25
+                        <i className="far fa-user" />0
                       </span>
-                      <span>
-                        <Link legacyBehavior href="/silase-details">
+                      {/* <span>
+                        <Link legacyBehavior href="/tour-details">
                           <a>
                             Details
                             <i className="far fa-long-arrow-right" />
                           </a>
                         </Link>
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                 </div>

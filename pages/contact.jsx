@@ -87,7 +87,7 @@ const Contact = () => {
       <section className="contact-page-map pb-100 wow fadeInUp">
         {/*=== Map Box ===*/}
         <div className="map-box">
-          <iframe src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed" />
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126115.11523351159!2d38.7781448!3d8.96317685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85cef5ab402d%3A0x8467b6b037a24d49!2sAddis%20Ababa!5e0!3m2!1sen!2set!4v1730411828718!5m2!1sen!2set" />
         </div>
       </section>
       {/*====== End Contact Map Section ======*/}

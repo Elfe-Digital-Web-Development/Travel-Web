@@ -12,32 +12,21 @@ const TourDetails = () => {
       <section className="place-details-section">
         {/*=== Place Slider ===*/}
         <div className="place-slider-area overflow-hidden wow fadeInUp">
-          <Slider {...placeSlider} className="place-slider">
-            <div className="place-slider-item">
-              <div className="place-img">
-                <img
-                  src="assets/images/place/single-place-4.jpg"
-                  alt="Place Image"
-                />
-              </div>
+          <div className="place-slider-item">
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                margin: "auto",
+                justifyContent: "center",
+                width: "1120px",
+                height: "400px",
+                objectFit: "cover",
+              }}
+            >
+              <img src="assets/images/place/R.jpg" alt="Place Image" />
             </div>
-            <div className="place-item">
-              <div className="place-img">
-                <img
-                  src="assets/images/place/single-place-2.jpg"
-                  alt="Place Image"
-                />
-              </div>
-            </div>
-            <div className="place-slider-item">
-              <div className="place-img">
-                <img
-                  src="assets/images/place/single-place-3.jpg"
-                  alt="Place Image"
-                />
-              </div>
-            </div>
-          </Slider>
+          </div>
         </div>
         <div className="container">
           {/*=== Tour Details Wrapper ===*/}
@@ -62,7 +51,7 @@ const TourDetails = () => {
                       </div>
                       <div className="info">
                         <h4>
-                          <span>From</span>$0
+                          <span>From</span>ETB 0
                         </h4>
                       </div>
                     </div>
@@ -98,44 +87,43 @@ const TourDetails = () => {
                 <div className="place-content-wrap pt-45 wow fadeInUp">
                   <h3 className="title">Explore Tours</h3>
                   <p>
-                    Sed ut perspiciatis unde omniste natus error sit voluptatem
-                    accusantium doloremque laudantium totam rem aperiam, eaque
-                    ip quae abillo inventore veritatis et quasi architecto
-                    beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit
-                    sed quia consequuntur magni dolores eos qui ratione
-                    voluptatem sequi nesciunt. Neque porro quisquam est, qui
-                    dolorem ipsum quia dolor si amet consectetur adipisci velit
-                    sed quian numquam eius modi tempora incidunt ut labore
-                    dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-                    veniam qunostrum exercitationem ullam corporis suscipit
-                    laboriosaey nisi ut aliquid ex ea commodi consequatur? Quis
-                    autem vel eum iure reprehenderit qui in ea voluptate velit
-                    esse quam nihil molestiae consequatur veillum qui dolorem
-                    voluptas nulla pariatur
+                    Founded in the late 12th century, the town of Lalibela—a
+                    UNESCO World Heritage site often hailed as the "8th Wonder
+                    of the World"—is carved directly into hillside rock amidst a
+                    strikingly rugged landscape. The primary draw for visitors
+                    is its remarkable complex of 11 monolithic churches carved
+                    from stone, as well as mountain treks and visits to
+                    monasteries outside the town. A top destination on the
+                    Northern Circuit, Lalibela sees particularly high popularity
+                    during religious holidays and is easily accessible by flight
+                    from Addis Ababa.
                   </p>
                   <h4>Advance Facilities</h4>
                   <p>
-                    Neque porro quisquam est dolorem ipsum quia dolor si amet
-                    consectetur adipisci velit sed quian numquam eius tempora
-                    incidunt labore dolore magnam aliquam quaerat voluptatem.
+                    upon arrival meet and assist by Addisalem representative
+                    Lalibela is known for its well-preserved Rock Hewn churches;
+                    each rock churches are carved out and crafted beautifully
+                    from a single volcanic rock. Here you head on back to 11th
+                    c. mythical rock hewn churches of Lalibela. The mysterious
+                    Lalibela churches are widely regarded as the 8th wonder of
+                    the world. Explore as many rock-hewn churches as you can.
                   </p>
                   <div className="row align-items-lg-center">
                     <div className="col-lg-5">
                       <ul className="check-list">
                         <li>
                           <i className="fas fa-badge-check" />
-                          Parking in the Camp
+                          Ground transportation service including all transfers
                         </li>
                         <li>
                           <i className="fas fa-badge-check" />
-                          Pick and Drop Services
+                          Entrance fees according to the tour program
                         </li>
                         <li>
                           <i className="fas fa-badge-check" />
-                          Washing Machines
+                          English speaking local guide
                         </li>
-                        <li>
+                        {/* <li>
                           <i className="fas fa-badge-check" />
                           Cruise Dinner &amp; Music Event
                         </li>
@@ -146,26 +134,25 @@ const TourDetails = () => {
                         <li>
                           <i className="fas fa-badge-check" />
                           Motorhome service
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                           <i className="fas fa-badge-check" />1 Meal Per Day
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                     <div className="col-lg-7">
                       <img
-                        src="assets/images/place/single-place-4.jpg"
+                        src="assets/images/place/R.jpg"
                         className="mb-20 w-100"
                         alt="place image"
                       />
                     </div>
                   </div>
-                  <h4>Tour Plan</h4>
-                  <p>
-                    Quis autem vel eum iure reprehenderit qui in ea voluptate
-                    velit esse quam nihil molestiae consequatur vel eillum qui
-                    dolorem eum fugiat quo voluptas nulla pariatur
-                  </p>
+                  <div className="map-box mb-60 wow fadeInUp">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31217.336770399583!2d39.0098098420956!3d12.032014851137928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x16413eee814f2d03%3A0xf27414e782ae4b62!2sLalibela!5e0!3m2!1sen!2set!4v1730448582507!5m2!1sen!2set"></iframe>
+                  </div>
+
+                  {/* Lucy's Fossil */}
                 </div>
                 {/*=== Days Area ===*/}
                 <Tab.Container defaultActiveKey={"day1"}>
@@ -353,7 +340,7 @@ const TourDetails = () => {
                 </Tab.Container>
                 {/*=== Map Box ===*/}
                 <div className="map-box mb-60 wow fadeInUp">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15608.754767870934!2d39.04144633952827!3d12.030527054419178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x16413eee814f2d03%3A0xf27414e782ae4b62!2sLalibela!5e0!3m2!1sen!2set!4v1730277418890!5m2!1sen!2set"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31217.336770399583!2d39.0098098420956!3d12.032014851137928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x16413eee814f2d03%3A0xf27414e782ae4b62!2sLalibela!5e0!3m2!1sen!2set!4v1730448582507!5m2!1sen!2set"></iframe>
                 </div>
                 {/*=== Calendar Box ===*/}
                 <div className="calendar-wrapper wow fadeInUp">
@@ -584,7 +571,7 @@ const TourDetails = () => {
                           </div>
                         </div>
                         <div className="booking-item">
-                          <label>Child (0-12 years) $0</label>
+                          <label>Child (0-12 years) ETB 0</label>
                           <div className="bk-item booking-user">
                             <i className="far fa-user" />
                             <select className="wide">

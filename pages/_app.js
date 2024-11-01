@@ -1,5 +1,5 @@
-import PreLoader from "@/src/layout/PreLoader";
-import "@/styles/globals.css";
+import PreLoader from "../src/layout/PreLoader";
+import "../styles/globals.css";
 import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 

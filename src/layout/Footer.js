@@ -70,38 +70,24 @@ const Footer = ({ bg, extraClass }) => {
             </div>
             <div className="col-lg-5 col-md-6">
               {/*=== Footer Widget ===*/}
-              <div className="footer-widget service-nav-widget mb-40 pl-lg-70">
+              <div
+                className="footer-widget  mb-40"
+                style={{ marginLeft: "150px" }}
+              >
                 <h4 className="widget-title">Services</h4>
                 <div className="footer-content">
                   <ul className="footer-widget-nav">
                     <li>
-                      <a href="#">Caravan Soler Tent</a>
+                      <a href="car">Car Rental Services</a>
                     </li>
                     <li>
-                      <a href="#">Family Tent Camping</a>
+                      <a href="tour">Tour Services</a>
                     </li>
                     <li>
-                      <a href="#">Classic Tent Camping</a>
+                      <a href="#">Ticketing Services</a>
                     </li>
                     <li>
-                      <a href="#">Wild Tent Camping</a>
-                    </li>
-                    <li>
-                      <a href="#">Small Cabin Wood</a>
-                    </li>
-                  </ul>
-                  <ul className="footer-widget-nav">
-                    <li>
-                      <a href="#">Need a Career ?</a>
-                    </li>
-                    <li>
-                      <a href="#">Latest News &amp; Blog</a>
-                    </li>
-                    <li>
-                      <a href="#">Core Features</a>
-                    </li>
-                    <li>
-                      <a href="#">Meet Our teams</a>
+                      <a href="#">Event Organizing</a>
                     </li>
                   </ul>
                 </div>
@@ -138,31 +124,29 @@ const Footer = ({ bg, extraClass }) => {
         {/*=== Footer Copyright ===*/}
         <div className="footer-copyright">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-">
               {/*=== Footer Text ===*/}
-              <div className="footer-text">
-                <p>
-                  Copy@ 2023 <span style={{ color: "#F7921E" }}>GoWilds</span>,
-                  All Right Reserved
+              <div
+                className="footer-text"
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  margin: "auto",
+                }}
+              >
+                <p
+                  style={{
+                    textAlign: "center",
+                  }}
+                >
+                  Copy@ 2024{" "}
+                  <span style={{ color: "#F7921E" }}>Elfe Digital</span>, All
+                  Right Reserved
                 </p>
               </div>
             </div>
-            <div className="col-lg-6">
-              {/*=== Footer Nav ===*/}
-              <div className="footer-nav float-lg-end">
-                <ul>
-                  <li>
-                    <a href="#">Setting &amp; privacy</a>
-                  </li>
-                  <li>
-                    <a href="#">Faqs</a>
-                  </li>
-                  <li>
-                    <a href="#">Support</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            <div className="col-lg-6">{/*=== Footer Nav ===*/}</div>
           </div>
         </div>
       </div>
