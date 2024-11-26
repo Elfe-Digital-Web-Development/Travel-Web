@@ -49,3 +49,37 @@ input[type="date"]:before {
   top: unset;
   right: 19px;
 }
+ /* Add this CSS for the hover effect */
+/* .about-content-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.about-content-box::before {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%; */
+  /* background-color: #ebf1ec;
+  transition: all 0.5s ease;
+  z-index: 0;
+} */
+
+/* .about-content-box:hover::before {
+  top: 0;
+}
+
+.fancy-icon-box-two {
+  position: relative;
+  z-index: 1;
+}
+
+.about-content-box:hover .text h4,
+.about-content-box:hover .text p,
+.about-content-box:hover .icon i {
+  color: #111111; 
+   transition: all 0.3s ease;
+} 
+ */

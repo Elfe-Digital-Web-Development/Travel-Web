@@ -26,6 +26,9 @@ const DeskTopMenu = () => {
             <Link href="/">Home</Link>
           </li>
           <li className="menu-item has-children">
+            <Link href="ticket">Ticketing</Link>
+          </li>
+          <li className="menu-item has-children">
             <Link href="tour">Tours</Link>
             {/* <ul className="sub-menu">
               <li>

@@ -5,7 +5,15 @@ const DefaultHeader = () => {
   return (
     <header className="header-area header-three">
       {/*====== Header Top Bar ======*/}
-      <div className="header-top-bar pt-30 pb-3">
+      <div
+        className="header-top-bar pt-30 pb-3"
+        style={{
+          backgroundColor: "#ba160c",
+          height: "70px",
+          display: "flex",
+          alignItems: "center",
+        }}
+      >
         <div className="container-fluid">
           <div
             className="row"
@@ -27,8 +35,9 @@ const DefaultHeader = () => {
                 </Link>
               </div>
             </div>
-            <div className="" style={{ marginTop: "-80px" }}>
+            <div className="" style={{ marginTop: "-110px" }}>
               {/*====== Information Wrapper ======*/}
+
               <div className="information-wrapper">
                 <div
                   style={{
@@ -40,24 +49,30 @@ const DefaultHeader = () => {
                   <div className="col-lg-4">
                     <div className="single-info-item-two">
                       <div style={{ display: "flex", alignItems: "center" }}>
-                        <div className="icon">
+                        <div className="icon" style={{ color: "white" }}>
                           <i className="far fa-map-marker-alt" />
                         </div>
-                        <div className="info ">
-                          <h5>Addis Ababa , Ethiopia</h5>
+                        <div className="info">
+                          <h5 style={{ color: "white" }}>
+                            Addis Ababa , Ethiopia
+                          </h5>
                         </div>
                       </div>
                     </div>
                   </div>
+
                   <div className="col-lg-4">
                     <div className="single-info-item-two">
                       <div style={{ display: "flex", alignItems: "center" }}>
-                        <div className="icon">
+                        <div className="icon" style={{ color: "white" }}>
                           <i className="far fa-envelope" />
                         </div>
                         <div className="info">
                           <h5>
-                            <a href="mailto:Info@addisalemtourandtravel.com">
+                            <a
+                              href="mailto:Info@addisalemtourandtravel.com"
+                              style={{ color: "white" }}
+                            >
                               Info@addisalemtourandtravel.com
                             </a>
                           </h5>
@@ -71,12 +86,17 @@ const DefaultHeader = () => {
                         className="inner-info"
                         style={{ display: "flex", alignItems: "center" }}
                       >
-                        <div className="icon">
+                        <div className="icon" style={{ color: "white" }}>
                           <i className="far fa-phone-plus" />
                         </div>
                         <div className="">
                           <h5>
-                            <a href="tel:+000(123)45688">+25190000000</a>
+                            <a
+                              href="tel:+000(123)45688"
+                              style={{ color: "white" }}
+                            >
+                              +25190000000
+                            </a>
                           </h5>
                         </div>
                       </div>

@@ -400,7 +400,7 @@ ul.slick-dots li button::before,
 .main-btn.filled-btn:hover i,
 .main-btn i,
 .white-bg {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .contact-form .form_control,
@@ -768,6 +768,7 @@ textarea.form_control {
 
 .section-title span.sub-title {
   margin-bottom: 13px;
+  font-size: 20px;
 }
 
 /*===== All Bg =====*/
@@ -2002,6 +2003,26 @@ button {
 /*---==================
     04. About css 
 =================----*/
+
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .about-two_content-box > p {
   margin-bottom: 45px;
 }
@@ -2107,6 +2128,7 @@ button {
     05. Elements css 
 =================----*/
 /* Features Item */
+
 .single-features-item:hover .img-holder .content p {
   opacity: 1;
   max-height: 90px;
@@ -2459,6 +2481,100 @@ button {
 }
 .fancy-icon-box-four .text p {
   line-height: 28px;
+}
+/* 2x3 grid  */
+.services-grid-container {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.service-box {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.features-list-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  width: 100%;
+}
+
+.fancy-icon-box-two {
+  height: 100%;
+}
+
+.about-content-box {
+  width: 100%;
+}
+
+
+
+/* 2x2 grid */
+.about-section {
+  /* background-size: 100% 100%; */
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 20px;
+  width: 100%;
+  margin: 40px auto;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.service-box {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.service-box:hover {
+  transform: translateY(-5px);
+}
+.fancy-icon-box-two {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.text p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Single Team Item */
@@ -3078,6 +3194,10 @@ button {
   display: none;
 }
 
+
+
+
+
 /*---==================
     07. Services css 
 =================----*/
@@ -3602,6 +3722,41 @@ button {
 /*---==================
     02. Places css 
 =================----*/
+.place-img {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.place-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  z-index: 100;
+}
+
+.place-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.places-section .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.col-md-6 {
+  flex: 0 0 calc(50% - 15px);
+  max-width: calc(50% - 15px);
+}
+.places-section .single-place-item {
+  height: 100%;
+  margin-bottom: 30px;
+}
+
+.g-4 {
+  gap: 1.5rem;
+}
+
 .place-slider {
   margin-left: -15px;
   margin-right: -15px;
@@ -3640,12 +3795,14 @@ button {
 .single-place-item .place-img img {
   width: 100%;
   border-radius: 15px;
+  
 }
 .single-place-item .place-content {
   position: relative;
   margin-left: 25px;
   margin-right: 25px;
   margin-top: -60px;
+
 }
 @media (max-width: 991px) {
   .single-place-item .place-content {
@@ -4683,7 +4840,7 @@ button {
   text-transform: uppercase;
 }
 .blog-post .post-meta span:hover a {
-  color:  #da6545;
+  color: #da6545;
 }
 @media (max-width: 767px) {
   .blog-post .post-meta span {
@@ -5825,7 +5982,7 @@ ul.slick-dots li button::before {
   opacity: 1 !important;
 }
 ul.slick-dots li.slick-active button {
-  border-color:  #da6545;
+  border-color: #da6545;
 }
 
 /* Hero Slider One */

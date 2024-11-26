@@ -11,7 +11,7 @@ const Events = () => {
             "url(https://spotme.com/wp-content/uploads/2020/07/Hero-1.jpg)",
         }}
       >
-        <div className="container">
+        {/* <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-10">
               <div className="page-banner-content text-center text-white">
@@ -20,7 +20,7 @@ const Events = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*====== Start Booking Section ======*/}
       {/* <section className="booking-form-section">
         <div className="container-fluid">
@@ -77,20 +77,20 @@ const Events = () => {
       </section> */}
       {/*====== End Booking Section ======*/}
       {/*====== Start Events Section ======*/}
-      <section className="events-section pt-100 pb-100">
-        <div className="container">
+      {/* <section className="events-section pt-100 pb-100">
+        <div className="container"> */}
           {/*====== Products Filter ======*/}
-          <div className="page-item-filter mb-40 wow fadeInUp">
+          {/* <div className="page-item-filter mb-40 wow fadeInUp">
             <div className="row align-items-center justify-content-center">
-              <div className="col-md-7">
+              <div className="col-md-7"> */}
                 {/*====== Show Text ======*/}
-                <div className="show-text mb-20">
+                {/* <div className="show-text mb-20">
                   <h6>Showing Results 09 Of 55</h6>
                 </div>
               </div>
-              <div className="col-md-5">
+              <div className="col-md-5"> */}
                 {/*====== Product Dropdown ======*/}
-                <div className="product-dropdown float-md-end">
+                {/* <div className="product-dropdown float-md-end">
                   <span className="title">Sort By</span>
                   <select className="wide">
                     <option data-display="Default">Default</option>
@@ -358,8 +358,8 @@ const Events = () => {
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </section>
       {/*====== End Events Section ======*/}
       {/*====== Start Gallery Section ======*/}
