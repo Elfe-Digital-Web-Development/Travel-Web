@@ -1176,6 +1176,12 @@ button {
 }
 
 /* Header Navigation */
+.header-navigation  {
+  position: relative;
+  background-color: #ffffff; /* Optional: Flat white background */
+  width: 100%; /* d spacing around icons */
+}
+
 .header-navigation .nav-overlay {
   position: fixed;
   top: 0;
@@ -1200,12 +1206,17 @@ button {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  justify-content: flex-end; /* Align menu items to the right */
+  padding: 0 20px; /* Add spacing inside */
+  border-bottom: none; /* Remove border */
 }
 .header-navigation .main-menu ul > li {
   display: inline-block;
   position: relative;
-  margin-left: 17px;
-  margin-right: 17px;
+  /* margin-left: 17px;
+  margin-right: 17px; */
+  margin: 0 ;
+  padding: 0;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .header-navigation .main-menu ul > li {
@@ -1218,6 +1229,11 @@ button {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
+.header-navigation .main-menu ul > li > a:hover {
+  color: #f7921e; /* Set hover color */
+  text-decoration: underline; /* Optional hover style */
+}
+
 .header-navigation .main-menu ul > li > a {
   position: relative;
   display: block;
@@ -1225,9 +1241,18 @@ button {
   padding: 34px 0 37px;
   text-transform: capitalize;
   line-height: 1;
+  text-align: center; 
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Set default text color */
+  padding: 10px 20px; /* Add padding around menu links */
+  background: none !important; /* Remove background color */
 }
 .header-navigation .main-menu ul > li > a span.dd-trigger {
   margin-left: 5px;
+}
+
+.header-navigation .main-menu ul > li > a:hover {
+  color: #f7921e; /* Change color on hover */
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .header-navigation .main-menu ul > li > a {
@@ -1502,6 +1527,14 @@ button {
     padding-right: 15px;
   }
 }
+.header-navigation {
+  position: relative; /* No floating */
+  background-color: #ffffff; /* Flat white background */
+  width: 100%; /* Full width across the viewport */
+  z-index: 1000; /* Ensure it's above content */
+  box-shadow: none; /* Remove any shadow */
+  border-radius: 0; /* Remove rounded corners */
+}
 .header-one .header-navigation .primary-menu {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -1591,6 +1624,9 @@ button {
     03. Hero css 
 =================----*/
 /* Hero Content */
+.hero-wrapper {
+  margin-top: 80px; /* Push hero section below header */
+}
 .hero-content h1 {
   font: 600 100px "Prompt", sans-serif;
   line-height: 1.1;
@@ -6135,6 +6171,175 @@ ul.slick-dots li.slick-active button {
   display: none !important;
 }
 
+/*--==== start Tour Css ====--*/
+
+.tours-section {
+  padding: 4rem 6rem;
+  background: #f9f9f9;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #2c3e50;
+}
+
+.tours-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.tour-box {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.tour-box:hover {
+  transform: translateY(-10px);
+}
+
+.tour-box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.tour-box h3 {
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+.tour-box p {
+  padding: 0 1rem 1rem;
+  color: #666;
+}
+
+
+
+/*--==== End tour Css ====--*/
+
+
+
+/* start  history  */
+.history-container {
+  display: flex;
+  padding: 2rem 6rem;
+  /* gap: 4rem; */
+  /* background: #ffffff; */
+  align-items: center;
+}
+
+.history-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.logo-wrapper {
+  display : flex;
+  justify-content: center;
+}
+.company-logo {
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  transition: all 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.company-logo:hover {
+  transform: translateY(-8px) scale(1.08); /* Lifts up and scales */
+  filter: brightness(1.1)  drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1)); /* Subtle brightness boost */
+}
+
+.experience-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem; /* Tighter spacing between elements */
+  /* margin-top: -25px; */
+  width:100%;
+}
+
+.image-box {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.years-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  background: #f8f8f8;
+  border-radius: 10px;
+  border: 2px solid #FFD700;
+  width:fit-content;
+}
+.years-content {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+.years {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #039e2f;
+  line-height: 1;
+  /* margin-right: 10px; */
+}
+
+.text {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1;
+}
+.text-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 8px; /* Space between number and text */
+  /* padding-bottom: 8px; */
+}
+
+.history-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.history-right h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.history-right p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #666;
+}
+
+/* end history  */
 /*---==================
     19. Wrapper css 
 =================----*/
